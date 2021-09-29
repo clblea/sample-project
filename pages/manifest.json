@@ -1,0 +1,14 @@
+{
+    "name": "Managing Celiac",
+    "short_name": "MC",
+    "description": "Managing your disease",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f5e5d5",
+    "theme_color": "#d1771f",
+    "dir": "ltr",
+    "lang": "en-US"
+
+}
