@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celiac Resources</title>
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css">
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body class="grey lighten-4">
+  
+  <nav >
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Celiac - A Dreadful Disease</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/index.html">Home</a></li>
+        <li class="active"><a href="/pages/symptoms.html">Symptom Tracker</a></li>
+        <li><a href="/pages/news.html">News</a></li>
+        <li><a href="/pages/eatingout.html">Eating Out</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/symptoms.html">Symptom Tracker</a></li>
+        <li><a href="/pages/news.html">News</a></li>
+        <li><a href="/pages/eatingout.html">Eating Out</a></li>
+  </ul id="sym-list">
+
+  <div class="container">
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+            <h2 class="center-align">Symptom Tracker</h2>
+            <div class="row">
+                <form id="add-sym-form" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <input id="datepic" name="formdate" type="date" class="datepicker">
+                          <label for="datepic">Date of Symptom</label>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="symdesc" name="formdesc" class="materialize-textarea"></textarea>
+                          <label for="symdesc">Description of Symptom</label>
+                        </div>
+                    </div>
+                    <div class="input-field col s12">
+                      <select name=fomsev>
+                        <option value="" disabled selected>Severity of Symptom</option>
+                        <option value="Mild">Mild</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="Critical">Critical</option>
+                      </select>
+                      <label>Symptom Severity</label>
+                    </div>               
+                    
+                    <div class="input-field col s12">
+                      <button>Add Symptom</button>
+                    </div>
+                </form>
+                <ul id="symptom-list"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="/js/ui.js"></script>
+    <script type="module" src="/js/db.js"></script>
+
+</body> 
+
+</html>

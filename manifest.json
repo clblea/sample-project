@@ -1,0 +1,64 @@
+{
+    "name": "Managing Celiac",
+    "short_name": "MC",
+    "description": "Managing your disease",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f5e5d5",
+    "theme_color": "#d1771f",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/icons/iconP-16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/img/icons/iconP-20.png",
+            "type": "image/png",
+            "sizes": "20x20"
+        },
+        {
+            "src": "/img/icons/iconP-24.png",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "/img/icons/iconP-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/img/icons/iconP-48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/img/icons/iconP-64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/img/icons/iconP-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        
+        
+        {
+            "src": "/img/icons/iconP-256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        
+        {
+            "src": "/img/icons/iconP-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+
+}
